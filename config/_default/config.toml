@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://demo.statichunt.com/geeky-hugo/"
-title = "Linuxible | Hugo Personal Blog Template"
-theme = "linuxible-theme"
+title = "Geeky | Hugo Personal Blog Template"
+theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
