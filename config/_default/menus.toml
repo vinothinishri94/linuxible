@@ -2,17 +2,17 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "HOME"
 url = ""
 weight = 1
 
 [[main]]
-name = "About"
+name = "UBUNTU"
 url = "about/"
 weight = 2
 
 [[main]]
-name = "Contact"
+name = "FEDORA"
 url = "contact/"
 weight = 3
 
@@ -36,7 +36,7 @@ hasChildren = true
 
 # footer menu
 [[footer]]
-name = "Home"
+name = "OPENSUSE"
 url = "/"
 weight = 1
 
