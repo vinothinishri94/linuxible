@@ -1,10 +1,10 @@
 ---
 title: "Install Ubuntu 22.04 [BIOS & UEFI Machines]"
 description: "meta description"
-image: "https://www.linuxible.com/post/install-ubuntu-22-04/featured.jpg"
+image: "images/install-ubuntu-22-04/featured.png"
 date: 2022-01-24T18:19:25+06:00
 categories: ["programming"]
-type: "regular" # available types: [featured/regular]
+type: "featured" # available types: [featured/regular]
 draft: false
 ---
 
