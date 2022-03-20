@@ -26,23 +26,23 @@ name = "OPENSUSE"
 url = "contact/"
 weight = 3
 
-[[main]]
-name = "Pages"
-url = "#"
-weight = 3
-hasChildren = true
-
-  [[main]]
-  parent = "Pages"
-  name = "Tags"
-  url = "tags/"
-  weight = 1
-
-  [[main]]
-  parent = "Pages"
-  name = "Categories"
-  url = "categories/"
-  weight = 2
+#[[main]]
+#name = "Pages"
+#url = "#"
+#weight = 3
+#hasChildren = true
+#
+#  [[main]]
+#  parent = "Pages"
+#  name = "Tags"
+#  url = "tags/"
+#  weight = 1
+#
+#  [[main]]
+#  parent = "Pages"
+#  name = "Categories"
+#  url = "categories/"
+#  weight = 2
 
 # footer menu
 [[footer]]

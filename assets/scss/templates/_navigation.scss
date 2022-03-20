@@ -1,5 +1,5 @@
 .header {
-  padding: 30px 0 32px;
+  padding: 10px 0 12px;
 
   /* social-icons */
   .social-icons {
@@ -52,7 +52,7 @@
       &.active {
         .nav-link {
           background: $color-primary;
-          border-radius: 50px;
+          border-radius: 5px;
           color: $white;
         }
       }
@@ -66,7 +66,7 @@
       font-weight: 400;
       color: $black;
       padding: .7em 1.5em;
-      border-radius: 50px;
+      border-radius: 5px;
       transition: .2s ease;
 
       @include desktop-lg {
@@ -75,7 +75,7 @@
 
       &:hover {
         background: $color-primary;
-        border-radius: 50px;
+        border-radius: 5px;
         color: $white;
       }
     }
