@@ -12,7 +12,17 @@ url = "about/"
 weight = 2
 
 [[main]]
+name = "DEBIAN"
+url = "contact/"
+weight = 3
+
+[[main]]
 name = "FEDORA"
+url = "contact/"
+weight = 3
+
+[[main]]
+name = "OPENSUSE"
 url = "contact/"
 weight = 3
 
