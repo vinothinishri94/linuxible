@@ -62,7 +62,14 @@
           </li>
           <li class="list-inline-item d-flex align-items-center">
             <i class="fas fa-calendar me-2"></i>
-            <span>{{ time.Format ":date_long" .PublishDate }}</span>
+            <!-- <span>{{ time.Format ":date_long" .PublishDate }}</span> -->
+            {{ if .PublishDate.IsZero }}
+      Published On:&nbsp; <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
+    {{ else if lt .PublishDate .Lastmod }}
+      Updated On:&nbsp; <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "2 Jan, 2006" }}</time>
+    {{ else }}
+      Published On:&nbsp; <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "2 Jan, 2006" }}</time>
+    {{ end }}
           </li>
         </ul>
         <div class="content drop-cap">{{.Content}}</div>
