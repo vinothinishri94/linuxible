@@ -2,8 +2,8 @@
 title: "Install Ubuntu 22.04 [BIOS & UEFI Machines]"
 description: "meta description"
 image: "images/install-ubuntu-22-04/featured.png"
-#date: 2022-01-24T18:19:25+06:00
-date: 2022-01-16T10:59:33Z
+date: 2022-01-24T18:19:25+06:00
+#date: 2022-01-16T10:59:33Z
 lastmod: 2022-02-26T18:19:33Z
 categories: ["programming"]
 type: "featured" # available types: [featured/regular]
